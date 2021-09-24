@@ -8,17 +8,60 @@ nav ul, .top-nav {
   justify-content: flex-end;
   flex-direction: column ;
 }
+header {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+}
 
+.h2-title {
+  text-align: center;
+  width: 100%;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
 .la-bars {
   font-size: 30px;
   color: black;
   display: flex;
   justify-content: flex-end;
-  align-self: center;
-  
+  align-self: center;  
+}
+aside ul {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  list-style-type: none;
+}
+
+footer {
+  background-color: #9644BB;
+  display: flex;
+  border: solid 3px grey;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+}
+p {
+  max-width: 40ch;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+/* added border on logo just to show that my media query is working */
+.logo {
+  margin: 5 5;
+  max-width: 40px;
+  max-height: 80;
+  border: solid 5px grey;
 }
 
 
+/* CHANGES AFTER SCREEN IS 500PX OR MORE */
 @media screen and (min-width: 500px) {
   main {
     width: 100%;
@@ -38,6 +81,10 @@ nav ul, .top-nav {
     list-style-type: none;
     text-decoration: none;
     flex-wrap: wrap;
+  }
+  .h2-title {
+    display: flex;
+    justify-content: flex-start;
   }
   nav {
     background-color: #A6206A;
@@ -60,13 +107,37 @@ nav ul, .top-nav {
     border: solid 1px black;
     justify-content: flex-start;
   }
+  /* my goal was to have aside like a nav bar but might not be done due to time, also it would probably have been good to do with css grid instead */
   aside {
     background-color: #EC1C4B;
     display: flex;
     flex-direction: column;
   }
+  aside ul{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+  }
   i.las.la-bars {
     display: none;
+ }
+ h2 {
+   display: flex;
+   justify-content: center;
+   align-self: center;
+ }
+ footer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color:#2F9395 ;
+   border: none;
+ }
+ p {
+   max-width: 40ch;
+   display: flex;
+   text-align: center;
+   justify-content: center;
  }
 
 }
