@@ -1,0 +1,24 @@
+
+header {
+  margin: 0 auto;
+  background-color: #A6206A;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+nav {
+  background-color: #A6206A;
+}
+
+.logo {
+  margin: 10 auto;
+  padding: 5;
+  border: solid 2px black;
+}
+* {
+  border: black solid 2px;
+}
