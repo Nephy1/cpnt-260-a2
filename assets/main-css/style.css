@@ -52,6 +52,33 @@ p {
   text-align: center;
   justify-content: center;
 }
+
+/* Layout of Cards */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* card style */
+.card {
+  display: flex;
+  flex-direction: column;
+
+/* design of card */
+border: 2px solid orange;
+border-radius: 10px;
+max-width: 300px;
+margin: 10px;
+padding: 10px;
+}
+
+.buy-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* added border on logo just to show that my media query is working */
 .logo {
   margin: 5 5;
