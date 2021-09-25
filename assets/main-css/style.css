@@ -12,7 +12,6 @@ header {
   display: flex;
   justify-content: center;
   align-self: center;
-  width: 100%;
 }
 
 .h2-title {
@@ -99,10 +98,7 @@ padding: 10px;
   header {
     margin: 0px 0px 0px 0px ;
     background-color: #A6206A;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  max-width: 100%;
   }
 
   
@@ -178,6 +174,14 @@ padding: 10px;
    display: flex;
    text-align: center;
    justify-content: center;
+ }
+
+ img {
+   transition: transform .5s; /* animation */
+ }
+
+ .img:hover{
+   transform: scale(1.3);
  }
 
 
