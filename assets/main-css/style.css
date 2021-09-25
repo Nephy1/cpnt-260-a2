@@ -19,6 +19,8 @@ h1 {
   display: flex;
   flex-direction: column;
   padding: 10px;
+  justify-content: center;
+  text-align: center;
 }
 
 .h2-title {
@@ -29,6 +31,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-self: center;
+  width: 100%;
 }
 .la-bars {
   font-size: 30px;
@@ -65,6 +68,11 @@ p {
   flex-wrap: wrap;
   justify-content: center;
 }
+article {
+  max-width: 400px;
+  display: flex;
+  max-width: 100%;
+}
 
 /* card style */
 .card {
@@ -84,6 +92,7 @@ padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: max-content;
 }
 
 /* added border on logo just to show that my media query is working */
@@ -132,6 +141,13 @@ padding: 10px;
     display: flex;
     justify-content:flex-end;
     flex-direction: row;
+    
+  }
+  .top-nav a {
+    border: 3px solid skyblue;
+    border-radius: 5px;
+    padding: 3px;
+    text-decoration: none;
   }
   
   .logo {
@@ -141,6 +157,7 @@ padding: 10px;
     border: solid 1px skyblue;
     justify-content: flex-start;
   }
+
   /* my goal was to have aside like a nav bar but might not be done due to time, also it would probably have been good to do with css grid instead */
   aside {
     background-color: #EC1C4B;
@@ -153,7 +170,7 @@ padding: 10px;
     flex-direction: row;
     padding: 10px;
     }
-  aside ul li a, a {
+  aside ul li a {
     border: skyblue solid 3px;
     border-radius: 5px;
     padding: 5px;

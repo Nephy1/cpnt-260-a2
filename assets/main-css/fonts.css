@@ -5,6 +5,9 @@ font-family: Rock Salt;
 h2 {
   font-family: Rock Salt;
 }
+.top-nav a, li {
+  font-family: Lato;
+}
 p {
   font-family:Lato;
   font-weight: 10;
