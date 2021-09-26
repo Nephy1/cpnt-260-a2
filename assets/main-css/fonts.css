@@ -1,12 +1,19 @@
 h1, .h2-title, .banger-title {
   color:skyblue;
 font-family: Rock Salt;
+text-shadow: black 2px 2px;
 }
+
 h2 {
   font-family: Rock Salt;
+  text-shadow: grey 2px 2px;
 }
 .top-nav a, li {
   font-family: Lato;
+  color: skyblue;
+}
+.top-nav a:hover {
+  background-color: black;
 }
 p {
   font-family:Lato;

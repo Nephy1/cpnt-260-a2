@@ -1,4 +1,6 @@
-# Product Page rough draft
+# CPNT-260-A2 Product Page
+
+## Product Page rough draft
 
 Header
   -logo/name?
@@ -22,3 +24,8 @@ Header
 
 <> Link color #5785a8
 <> possible colour gradients #A6206A (purple) #EC1C4B(redish), #F16A43 (orange), #F7D969 (pale yellow), #2F9395 (tealish), 80s retrowave color palette.
+
+## Struggling to make aside side nav bar
+linear gradient and text shadow were surprisingly simple but very cool.
+
+I think css grid would have been a tad easier to work with if I knew it just as much as flexbox.
