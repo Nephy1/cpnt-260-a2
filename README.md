@@ -29,3 +29,12 @@ Header
 linear gradient and text shadow were surprisingly simple but very cool.
 
 I think css grid would have been a tad easier to work with if I knew it just as much as flexbox.
+
+
+# Disclaimer
+All album artwork shown on this site goes to their respective owners. 
+
+Endless Summer - G-Eazy
+Wu Tang Greatest Hits - BMG Heritage
+Slim Shady LP - Aftermath + Interscope
+
